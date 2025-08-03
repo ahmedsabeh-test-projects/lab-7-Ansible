@@ -22,7 +22,7 @@ ansible-lab7/
 
 ## 🔐 Ansible Vault Variables
 The `vars/vault.yml` file contains sensitive variables such as:
-```yaml
+```
 mysql_root_password: root1234
 db_user: ivolve_user
 db_user_password: securepass123
@@ -50,7 +50,7 @@ Tasks Performed
 - Validate the database connection using the created user.
 
 🔧 How to Run
-1️⃣ Update inventory.ini with your EC2 details
+1️⃣ Update `inventory.ini` with your EC2 details
 ```
 [db]
 54.147.167.131 ansible_user=ec2-user ansible_ssh_private_key_file=~/.ssh/path_to_private_key
