@@ -1,0 +1,4 @@
+mysql_root_password: root1234
+db_user: ivolve_user
+db_user_password: securepass123
+
